@@ -42,7 +42,7 @@ function Header() {
                         <Link href={"/"}>Home</Link>
                     </li>
                     <li>
-                        <Link href={"/search"}>Search</Link>
+                        <Link href={"/create"}>Create</Link>
                     </li>
                 </ul>
 
@@ -79,7 +79,7 @@ function Header() {
                         <Link href={"/"}>Home</Link>
                     </li>
                     <li>
-                        <Link href={"/search"}>Search</Link>
+                        <Link href={"/create"}>Create</Link>
                     </li>
                     <SignedOut>
                        <div> <SignInButton /></div>

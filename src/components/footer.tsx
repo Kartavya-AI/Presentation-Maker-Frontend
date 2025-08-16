@@ -8,13 +8,12 @@ function Footer() {
                     {/* Logo + Description */}
                     <div>
                         <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                            Entrepreneur Copilot
+                            Presentation Maker
                         </h3>
                         <p className="mt-2 text-sm leading-relaxed">
-                            Your AI-powered GTM strategist — helping founders
-                            analyze markets, define customer profiles, craft
-                            positioning, and execute data-driven go-to-market
-                            plans for faster, smarter startup launches.
+                            Your AI-powered presentation assistant — turning simple ideas,
+                            briefs, or overviews into ready-to-share, professional-grade
+                            decks with consistent branding and stunning visuals.
                         </p>
                     </div>
 
@@ -31,12 +30,12 @@ function Footer() {
                             </li>
                             <li>
                                 <a href="#" className="hover:underline">
-                                    GTM Strategy Builder
+                                    Create Presentation
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:underline">
-                                    Market Insights
+                                    Templates & Themes
                                 </a>
                             </li>
                             <li>
@@ -74,7 +73,7 @@ function Footer() {
 
                 {/* Bottom note */}
                 <div className="mt-10 text-center text-xs text-gray-500 dark:text-gray-500">
-                    © {new Date().getFullYear()} Entrepreneur Copilot. All rights reserved.
+                    © {new Date().getFullYear()} Presentation Maker. All rights reserved.
                 </div>
             </footer>
         </div>
