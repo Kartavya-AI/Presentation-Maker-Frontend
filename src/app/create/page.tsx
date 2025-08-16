@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import axios from "axios";
+import VantaFog from "@/components/VantaFog";
 
 export default function PresentationMakerPage() {
   const [topic, setTopic] = useState("");
@@ -96,7 +97,8 @@ export default function PresentationMakerPage() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="mt-10 mx-auto px-4 md:px-36">
+      <VantaFog />
       <h1 className="text-3xl font-bold mb-6">AI Presentation Maker</h1>
 
       <div className="bg-white p-4 rounded shadow mb-6">
